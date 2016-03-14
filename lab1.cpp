@@ -7,7 +7,7 @@ int main()
      cin>>n;
 
      while(n!=1){
-         cout<<n;
+ 	 cout<<n<<" ";
          if(n==1)
              return 0;
          else if(n%2==1)
@@ -15,5 +15,6 @@ int main()
          else
              n=n/2;
      }
+     cout<<endl;
 }
 
